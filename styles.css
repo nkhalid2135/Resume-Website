@@ -1,0 +1,21 @@
+body{
+  color:#000080;
+  background-color:#EEEEEE;
+  font-size: 16px;
+}
+h1,h2{          /* font and text stuff */
+  font-size: 2em;
+  font-family: 'Rock Salt', sans-serif;
+  font-weight: bold;
+}
+h1,h2{
+  text-align: left;
+}
+ul{
+  font-family:'Open Sans', sans-serif;
+}
+h1,#contact{
+  padding: 50px
+
+
+}
