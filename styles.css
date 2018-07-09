@@ -1,21 +1,44 @@
 body{
-  color:#000080;
-  background-color:#EEEEEE;
+  color:#FFFFFF;
+  background-color:#000000;
   font-size: 16px;
 }
-h1,h2{          /* font and text stuff */
+h1,h4,h5{          /* font and text stuff */
   font-size: 2em;
   font-family: 'Rock Salt', sans-serif;
   font-weight: bold;
 }
-h1,h2{
-  text-align: left;
-}
-ul{
-  font-family:'Open Sans', sans-serif;
-}
-h1,#contact{
-  padding: 50px
-/** nk */
 
+ul,h2,h3{
+  font-family:'Rock Salt', sans-serif;
+}
+h1{ /** name  */
+  padding: 15px;
+  background-image: url(images/skulls-and-roses.jpg);
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h4{ /** education */
+  padding: 15px;
+  background-image: url(images/skulls-and-roses.jpg);
+  width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+  overflow:hidden;
+
+}
+.CollegeEducation,.HSEducation{
+  display: inline;
+}
+.skills{
+  padding: 15px;
+  background-image: url(images/skulls-and-roses.jpg);
+  width: 400px;
+  text-align: center;
+}
+.skills,{
+  float: right;
 }
